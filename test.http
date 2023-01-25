@@ -1,0 +1,59 @@
+GET http://localhost:3000/ HTTP/1.1
+###
+
+POST http://localhost:3000/exception HTTP/1.1
+content-type: application/json
+
+{
+    "id": 1
+}
+###
+
+POST http://localhost:3000/number HTTP/1.1
+content-type: application/json
+
+{
+    "id": 1
+}
+
+###
+
+POST http://localhost:3000/numberValidated HTTP/1.1
+content-type: application/json
+
+{
+    "id": 1
+}
+###
+
+POST http://localhost:3000/async HTTP/1.1
+content-type: application/json
+
+{
+    "id": 1
+}
+###
+
+POST http://localhost:3000/tryCatch HTTP/1.1
+content-type: application/json
+
+{
+    "id": 1
+}
+###
+
+POST http://localhost:3000/cached HTTP/1.1
+content-type: application/json
+
+{
+    "id": 1
+}
+
+###
+
+POST http://localhost:3000/notFound HTTP/1.1
+content-type: application/json
+
+{
+    "id": 1
+}
